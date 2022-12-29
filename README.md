@@ -34,7 +34,7 @@ I used the following code to load all the DataFrames into the AWS RDS instance a
 
 ## Determining Bias of Vine Amazon Reviews
 
-I decided to use PySpark to determine if there was any positivity bias in the five-star reviews that were part of the Amazon Vine Program.
+I used PySpark in Colab Notebooks to determine if there was any positivity bias in the five-star reviews that were part of the Amazon Vine Program.
 According to the paper [“Positivity Bias in Customer Satisfaction Ratings,”](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3186579#:~:text=A%20consumer%20is%20more%20likely,systematically%20biased%20for%20several%20reasons.) star ratings in customer reviews usually have a *J-shaped distribution,* where ratings gravitate towards the extreme positive or extreme negative. Some reasons for the positive ratings are that customers already purchased the article or service and tend to have a more favorable opinion. Furthermore, there’s also a social influence bias from already existing positive reviews. Therefore, it is important to analyze this dataset where there are some reviews that belong to a paid program, to see if having a paid vine affects the review.
  
 
