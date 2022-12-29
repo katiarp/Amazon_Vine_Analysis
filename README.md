@@ -28,7 +28,7 @@ Here are two DataFrame samples:
 ![Image_name](Resources/customers_df.png)
 ![Image_name](Resources/vine_df.png)
 
-I used the following code to load all the DataFrames into the AWS RDS instance and their corresponding tables in PgAdmin. After the DataFrames were successfully exported into the AWS RDS instance, I was able to perform the Vine Analysis. 
+I used the following code to load all the DataFrames into the AWS RDS instance and their corresponding tables in PgAdmin. After the DataFrames were successfully exported into the AWS RDS instance, I perfomed the Vine Analysis. 
 
 ![Image_name](Resources/PostgreSQL_AWS_RDS.png)
 
@@ -62,7 +62,7 @@ From the 49 paid reviews, only 9 reviews were five-stars. This means that five-s
 
 
 ## Summary
-The analysis highlights that it is unlikely that there was a positivity bias in this specific dataset. Approximately 18% of the reviews in the paid vine program were five-star reviews; this suggests that people participating in the program are most likely keeping their reviews honest and unbiased. In contrast, there might be some positivity bias in the unpaid vine reviews since five-star reviews were more than 50%.  
+The analysis highlights that it is unlikely that there was a positivity bias in this specific dataset. Approximately 18% of the reviews in the paid vine program were five-star reviews; this suggests that people participating in the program are keeping their reviews honest and unbiased. In contrast, there might be some positivity bias in the unpaid vine reviews since five-star reviews were more than 50%.  
 
 I also applied some descriptive statistics on the paid and unpaid vine to gain more insights. 
 ![Image_name](Resources/summary_statistics.png)
